@@ -1,0 +1,125 @@
+* {
+    font-family: Poppins;
+}
+
+body {
+    background-color: #01040B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: auto;
+}
+
+.container {
+    background-color: #000A1C;
+    max-width: 90%;
+    width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF233C;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+
+.logo i {
+    font-size: 56px;
+}
+
+.wrap-input-label {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.wrap-input-label label {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.wrap-input-label input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #EF233C;
+    padding-top: 8px;
+    font-family: Poppins;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.wrap-input-label i {
+    position: absolute;
+    right: 5px;
+    bottom: 32px;
+    color: #b6b6b6;
+}
+
+.wrap-input-label i:hover{
+    color: white;
+}
+
+input::placeholder {
+    color: #b6b6b6;
+    font-size: 16px;
+}
+input:hover::placeholder{
+    color: white;
+}
+
+.bottom button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EF233C;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.bottom-forgot {
+    font-size: 12px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-forgot {
+    color:#b6b6b6;
+}
+.bottom-forgot:hover{
+    color:white;
+}
+.bottom-forgot button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EF233C;
+    color: white;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #af0a1e;
+}
