@@ -1,3 +1,4 @@
+// show password
 document.addEventListener("DOMContentLoaded", () => {
     const passwordInput = document.getElementById('password');
     const eyeIcon = document.querySelector('.bi-eye-fill');
@@ -12,3 +13,30 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
+function login(){
+    var nome = $("#username").val()
+    var senha = $("#password").val()
+
+    if(nome && senha && nome === "admin" && senha === "12345"){
+        const user = {
+            name: nome,
+            dataEntrada: new Date(),
+            id: Math.floor(Math.random() * 100000),
+        };
+
+        localStorage.setItem("usuario", JSON.stringify(user))
+
+        window.location.href = "../Loja/index.html"
+    }else{
+        document.getElementById("error-modal").style.display = "flex"
+        document.getElementById("nome").style.borderBottom = "3px solid red"
+        document.getElementById("senha").style.borderBottom = "3px solid red"
+    }
+}
+
+function fecharError(){
+    document.getElementById("error-modal").style.display = "none"
+    document.getElementById("nome").style.borderBottom = " 2px solid #FFECD1"
+    document.getElementById("senha").style.borderBottom = " 2px solid #FFECD1"
+}
