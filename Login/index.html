@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,6 +21,10 @@
 </head>
 
 <body>
+    <div class="error-div" id="error-modal">
+        <p>Usuário ou senha incorreto, verifique e tente novamente</p>
+        <button onclick="fecharError()">❌</button>
+    </div>
     <div class="container">
         <div class="round">
             <div class="logo">
@@ -40,14 +43,13 @@
         <div class="bottom">
             <button type="submit" id="login">Entrar</button>
         </div>
-        <div class="error-div" id="error-modal">
-            <p>Usuário ou senha incorreto, verifique e tente novamente</p>
-        </div>
         <div class="bottom-forgot">
             <p>Esqueci minha senha</p>
             <button id="register">Criar conta</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 

@@ -124,9 +124,32 @@ button {
 button:hover {
     background-color: #af0a1e;
 }
-.error-div p{
-    font-size: 12px;
-    color: #EF233C;
-    text-align: center;
+.error-div{
     display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: lightpink;
+    gap: 2vh;
+    padding: 10px;
+    position: absolute;
+    bottom: 5%;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.error-div button{
+    background-color: transparent;
+    border: none;
+    opacity: 0.6;
+    transition: all 200ms linear;
+}
+
+.error-div button:hover{
+    cursor: pointer;
+    opacity: 1;
 }
