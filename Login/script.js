@@ -29,13 +29,10 @@ function login(){
         window.location.href = "/loja/index.html";
     }else{
         document.getElementById("error-modal").style.display = "flex";
-        document.getElementById("username").style.borderBottom = "3px solid red";
-        document.getElementById("password").style.borderBottom = "3px solid red";
+
     }
 }
 
 function fecharError(){
     document.getElementById("error-modal").style.display = "none";
-    document.getElementById("username").style.borderBottom = "2px solid #FFECD1";
-    document.getElementById("password").style.borderBottom = "2px solid #FFECD1";
 }

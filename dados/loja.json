@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "descricao": "WaterCooler 01",
+        "imagem": "https://loremflickr.com/300/200?random=1",
+        "preco": 100.0
+    },
+    {
+        "id": 2,
+        "descricao": "WaterCooler 02",
+        "imagem": "https://loremflickr.com/300/200?random=2",
+        "preco": 300.0
+    },
+    {
+        "id": 3,
+        "descricao": "WaterCooler 03",
+        "imagem": "https://loremflickr.com/300/200?random=3",
+        "preco": 190.0
+    },
+    {
+        "id": 4,
+        "descricao": "WaterCooler 03",
+        "imagem": "https://loremflickr.com/300/200?random=4",
+        "preco": 190.0
+    },
+    {
+        "id": 5,
+        "descricao": "WaterCooler 03",
+        "imagem": "https://loremflickr.com/300/200?random=5",
+        "preco": 190.0
+    },
+    {
+        "id": 6,
+        "descricao": "WaterCooler 03",
+        "imagem": "https://loremflickr.com/300/200?random=6",
+        "preco": 190.0
+    },
+    {
+        "id": 7,
+        "descricao": "WaterCooler 03",
+        "imagem": "https://loremflickr.com/300/200?random=7",
+        "preco": 190.0
+    },
+    {
+        "id": 8,
+        "descricao": "WaterCooler 03",
+        "imagem": "https://loremflickr.com/300/200?random=8",
+        "preco": 190.0
+    }
+
+]
